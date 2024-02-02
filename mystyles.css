@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* The aside styles below control the width of the aside and float the aside left. Some padding is also added to all the sides of the aside. Do not add any other selectors other than the ones you see in this document. */
+aside {
+  width: 33%;
+  float: left;
+  padding: 10px;
+}
+
+div {
+  margin-top: 1em;
+}
+
+/* Your styles start here */
+
+/* For the body style, add a new declaration to change the font to a different font. */
+body {
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.5em;
+  font-family: 'Playfair Display', serif;
+}
+
+/* For the header element and between the parentheses, type the value for the file name and extension of the background image you obtained that has a horizontal orientation. Also, if necessary, type a declaration to change the foreground text color if the contrast between the text and the background image results in the text not being easy to read when you view the document in the browser. */
+
+header {
+  background-image: url(background.jpg);
+}
+
+
+/* For the article element, add a new declaration to create a border on all sides. Use the border shortcut declaration to style the border to be solid, thin, and any named color of your choosing. */ 
+article {
+  background-color: ivory;
+  line-height: 1.5em;
+  margin-left: 35%;
+  padding: 1em; 
+  border: solid 3px PowderBlue;
+}
+
+/* For the h1 element, make sure the h1 content is centered when it renders in the browser. */ 
+h1 {
+  text-align: center;
+} 
+
+/* For the h2 element, type the declaration to have h2 headings appear in the browser with a text shadow. You determine the appearance of the text shadow. Give your text shadow a named color value, such as red. */ 
+h2 {
+  text-shadow: 5px 5px 5px gray;
+}
+
+/* For the h3 element, type a declaration to change the foreground color and the background color of the h3 content. Be mindful of contrast and readability. */
+h3 {
+  color: white;
+  background-color: magenta;	
+}
+
+/* For the em element, type two declarations to change the appearance of emphasized text. However, be mindful of color and contrast. Readability is key. Do not change the font size and do not center em text. */
+em {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* For the strong element, type two declarations to change the appearance of strong text. Once again, be mindful of color and contrast. Readability is key. Do not change the font size or center strong text. */
+strong {
+  font-weight: bold;
+  color: red;
+}
+
+/* For the img element, in addition to the three declarations you see below, use the transform property and type code to rotate, scale, and skew the image. You determine the values for the transform property –- but don’t go overboard on the skew or any of the other transformation values. */
+img {
+  display: block;
+  width: 100%;
+  margin: 10px 10px 10px 0px;
+  transform: scale(1.05);   
+  transfrom: rotate(5deg);
+  transform: skew(5 deg, 5deg);
+}
+
+/* For the figure element, have figures render in the browser with a box shadow. You determine the values for the box shadow. Give your box shadow a named color value, such as red. */
+figure {
+  box-shadow: 7px 7px 7px gray;
+}
+
+/* For the figcaption element, change the text color and the background color of the figcaption element -- but as always, be mindful of contrast. Also, have the figcaption text render in italics. */
+figcaption {
+  font-style: italic;
+  color: white;
+  background-color: red;
+}
+
+/* For the footer element, type two more declarations that will style the footer element to make your footer content stand out, but still be readable. */
+footer {
+  clear: both;
+  margin-top: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Add two declarations to style the anchor element to change the size of link text and also to change the font for link text */
+a {
+  font-size: 2em;
+  font-family: 'Times New Roman';	
+}
+
+/* When you have completed entering all the CSS code, follow the instructions in the Steps to Validate CSS Code document to validate your CSS code. Correct any errors in the CSS code before you submit your project. Also, before you submit your project, go through the Term Project Grading Rubric Checklist document and make sure that you have completed all the tasks for the project and completed them correctly. */
